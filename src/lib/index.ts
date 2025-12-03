@@ -11,8 +11,9 @@ import * as yash from '../creators/yash'
 import * as hushal from '../creators/huhshal'
 import * as vaze from '../creators/vaze'
 import * as atharva from '../creators/atharva'
+import * as bastien from '../creators/bastien'
 
-const modules = [saksham, darsh, angshu, tushar, ari, khushi, jerkeyray, priyanshu, yash, hushal, vaze, atharva];
+const modules = [saksham, darsh, angshu, tushar, ari, khushi, jerkeyray, priyanshu, yash, hushal, vaze, atharva, bastien];
 
 export const ALL_CREATORS: Creator[] = modules.map((m) => m.creator);
 export const ALL_POSTS: BlogPost[] = modules.flatMap((m) =>
