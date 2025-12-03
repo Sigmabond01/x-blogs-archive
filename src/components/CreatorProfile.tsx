@@ -18,9 +18,6 @@ export default function CreatorProfile({ creator, postCount }: CreatorProfilePro
                     {creator.name}
                 </h1>
                 <p className="text-zinc-500 dark:text-zinc-400">@{creator.handle}</p>
-                {creator.bio && (
-                    <p className="mt-4 max-w-lg text-zinc-600 dark:text-zinc-300">{creator.bio}</p>
-                )}
                 <div className="mt-4 flex items-center justify-center gap-4 sm:justify-start">
                     <div className="text-sm">
                         <span className="font-semibold text-zinc-900 dark:text-zinc-100">{postCount}</span>{' '}
