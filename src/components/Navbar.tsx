@@ -16,7 +16,7 @@ export default function Navbar() {
                         Dashboard
                     </Link>
                     <Link
-                        href="https://github.com" // You might want to change this URL to a form or email later
+                        href="https://github.com/Sigmabond01/x-blogs-archive"
                         target="_blank"
                         className="text-sm font-medium text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
                     >
